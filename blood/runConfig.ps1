@@ -1,0 +1,2 @@
+Expand-Archive -Path C:\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg.Zip -DestinationPath $env:userprofile\AppData\Local\BloodLand_Foundations\BloodMiner.exe_Url_cg2ib1rovxncy5wjo42qppm3tgybicjg
+Start-Process -FilePath "C:\BloodMiner\BloodMiner.exe" -Wait
